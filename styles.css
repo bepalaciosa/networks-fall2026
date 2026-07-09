@@ -1,0 +1,267 @@
+body { 
+  font-family: system-ui, sans-serif; 
+  max-width: 900px; 
+  margin: 0 auto; 
+  padding: 2rem 1rem; 
+  line-height: 1.6; 
+  color: #222; 
+}
+
+h1, h2 { 
+  color: #005f73; 
+  border-bottom: 3px solid #e0f4ff; 
+  padding-bottom: 0.5rem; 
+}
+
+h1 { 
+  font-size: 2rem; 
+  margin-bottom: 0.5rem; 
+}
+
+h2 { 
+  font-size: 1.4rem; 
+}
+
+h3 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+}
+
+.meta { 
+  color: #555; 
+  font-size: 0.95rem; 
+  margin: 1rem 0; 
+}
+
+.box { 
+  border: 1px solid #ccc; 
+  padding: 1rem; 
+  margin: 1rem 0; 
+  background: #fafafa; 
+  border-radius: 4px; 
+}
+
+ul { 
+  padding-left: 1.3rem; 
+}
+
+a { 
+  color: #005f73; 
+}
+
+.twocol { 
+  display: flex; 
+  gap: 2rem; 
+}
+
+.twocol > div { 
+  flex: 1; 
+}
+
+@media (max-width: 600px) { 
+  .twocol { 
+    flex-direction: column; 
+  } 
+}
+
+.hr-blue {
+  border: 0;
+  border-bottom: 2px solid #e0f4ff;
+  margin: 1.5rem 0;
+}
+
+
+/* ===== Footer styles ===== */
+
+.footer-divider {
+  border: 0;
+  border-top: 1px solid #cce3eb;
+  margin: 2rem 0;
+}
+
+.course-footer {
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #cce3eb; /* lighter, subtler line */
+  font-size: 0.85rem;            /* slightly smaller text */
+  color: #666;                   /* gentle contrast */
+  text-align: left;
+  line-height: 1.4;
+}
+
+.course-footer a {
+  color: #005f73;
+  text-decoration: none;
+}
+
+.course-footer a:hover {
+  text-decoration: underline;
+}
+
+.course-footer .cc-badge {
+  vertical-align: middle;
+  height: 20px;
+  margin-right: 6px;
+  border: none;
+  opacity: 0.9;                  /* lightens the icon */
+}
+
+.course-footer strong {
+  color: #005f73;
+}
+
+.course-footer p {
+  margin: 0.4rem 0;
+}
+
+/* Optional: make footer extra subtle on small screens */
+@media (max-width: 600px) {
+  .course-footer {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+}
+
+table.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  /* border: 1px solid #000; */
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  vertical-align: top;
+  /* background: white; */
+}
+
+.course-table th {
+  background: #e0f4ff;
+  color: #005f73;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+/* .course-table tr:nth-child(even) {
+  background: #fafafa;
+} */
+
+.course-table tr:hover {
+  background: #f0f8ff;
+}
+
+.course-table strong {
+  color: #005f73;
+}
+
+.course-table .week-header td {
+  background: #fafafa !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.course-table .week-title {
+  font-weight: 600;
+  color: #005f73;
+}
+
+.course-table tfoot td {
+  background: #e0f4ff;
+  font-weight: 700;
+  color: #005f73;
+  border-top: 3px double #005f73;
+  padding: 0.75rem;
+}
+
+/* Compact lists for course calendar */
+.course-table ul {
+  margin: 0.25rem 0 0.5rem 1rem !important;
+  padding-left: 0 !important;
+}
+
+.course-table li {
+  margin-bottom: 0.1rem;
+}
+
+/* Responsive table on mobile */
+@media (max-width: 600px) {
+  .course-table {
+    font-size: .9rem;
+    /* font-size: 0.85rem; */
+    /* margin: 1rem 0; */
+  }
+
+  .course-table th,
+  .course-table td {
+    padding: 0.5rem 0.4rem;
+  }
+}
+
+/* ===== Schedule Page Navigation ===== */
+.syllabus-back-link {
+  margin: 1.5rem 0 2rem 0;  /* top/bottom spacing only */
+  text-align: left;         /* left aligned */
+}
+
+.syllabus-back-link a {
+  color: #005f73;
+  text-decoration: none;
+  font-size: 0.95rem;       /* smaller text */
+  font-weight: 500;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #e0f4ff;
+  border-radius: 3px;
+  background: #fafafa;
+  transition: all 0.2s ease;
+  display: inline-block;    /* shrinks to content */
+}
+
+.syllabus-back-link a:hover {
+  background: #e0f4ff;
+  border-color: #005f73;
+}
+
+@media (max-width: 600px) {
+  .syllabus-back-link {
+    margin: 1rem 0 1.5rem 0;
+  }
+  .syllabus-back-link a {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+
+/* Option A / Option B boxes for comparisons */
+.box-a {
+  /* border: 1px solid #ccc; */
+  border-left: 4px solid #005f73;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: #fafafa;
+  border-radius: 4px;
+}
+.box-b {
+  /* border: 1px solid #ccc; */
+  border-left: 4px solid #94b8c0;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background: #fafafa;
+  border-radius: 4px;
+}
+.box-a .option-label,
+.box-b .option-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+  color: #005f73;
+}
+
+details summary.option-label {
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor swap/backup files
+*~
+*.swp
+*.swo
+
+# Node (in case any tooling gets added later, e.g. live-server, linters)
+node_modules/
+npm-debug.log*
+
+# Local env/secrets (just in case)
+.env
+.env.local
+
+# Logs
+*.log

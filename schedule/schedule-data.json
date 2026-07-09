@@ -1,0 +1,369 @@
+[
+  {
+    "week": 1,
+    "topic": "Introduction to Computer Networks",
+    "days": [
+      {
+        "date": "8/18",
+        "day_topic": "Course Overview & Introductions",
+        "readings": [],
+        "assignments_due": []
+      },
+      {
+        "date": "8/20",
+        "day_topic": "Ch. 1: Introduction to Networking",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 1" }
+        ],
+        "assignments_due": []
+      }
+    ]
+  },
+  {
+    "week": 2,
+    "topic": "Network Core & Performance",
+    "days": [
+      {
+        "date": "8/25",
+        "day_topic": "Discussion: Speed Test Reflection & Ch. 1 wrap-up",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 1 (continued)" }
+        ],
+        "assignments_due": [
+          { "title": "Speed Test Homework (due before class)" }
+        ]
+      },
+      {
+        "date": "8/27",
+        "day_topic": "Ch. 1/2: Network Core, Performance",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 1-2" }
+        ],
+        "assignments_due": []
+      }
+    ]
+  },
+  {
+    "week": 3,
+    "topic": "Application Layer",
+    "days": [
+      {
+        "date": "9/1",
+        "day_topic": "Discussion: Ch. 2 Application Layer",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 2" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "9/3",
+        "day_topic": "Ch. 2: HTTP, DNS",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 2 (continued)" }
+        ],
+        "assignments_due": []
+      }
+    ]
+  },
+  {
+    "week": 4,
+    "topic": "Transport Layer Intro",
+    "days": [
+      {
+        "date": "9/8",
+        "day_topic": "Discussion: Ch. 2/3 Transport Intro",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 3 (start)" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "9/10",
+        "day_topic": "Ch. 3: Sockets, Transport",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 3" }
+        ],
+        "assignments_due": [
+          { "title": "Programming Assignment 1 released (client-server)" }
+        ]
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "topic": "Transport Layer",
+    "days": [
+      {
+        "date": "9/15",
+        "day_topic": "Discussion: Ch. 3 Transport Deep Dive",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 3 (continued)" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "9/17",
+        "day_topic": "Ch. 3: Reliable Data Transfer",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 3 (continued)" }
+        ],
+        "assignments_due": []
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "topic": "TCP & Congestion Control",
+    "days": [
+      {
+        "date": "9/22",
+        "day_topic": "Discussion: Ch. 3 TCP",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 3 (TCP)" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "9/24",
+        "day_topic": "Ch. 3: Congestion Control",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 3 (continued)" }
+        ],
+        "assignments_due": [
+          { "title": "Programming Assignment 1 due" }
+        ]
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "topic": "Foundational Reading: End-to-End Arguments",
+    "days": [
+      {
+        "date": "9/29",
+        "day_topic": "Discussion: Saltzer, Reed & Clark, \"End-to-End Arguments in System Design\"",
+        "readings": [
+          { "title": "Saltzer, Reed & Clark (1984), \"End-to-End Arguments in System Design\"" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "10/1",
+        "day_topic": "Ch. 4: Network Layer Intro",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 4 (start)" }
+        ],
+        "assignments_due": [
+          { "title": "Programming Assignment 2 released" }
+        ]
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "topic": "Network Layer (Fall Break week)",
+    "days": [
+      {
+        "date": "10/6",
+        "day_topic": "HYBRID: Ch. 4 (IP & Routing) + Midterm Review",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 4" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "10/8",
+        "day_topic": "No class — Fall Break",
+        "readings": [],
+        "assignments_due": []
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "topic": "Midterm Week",
+    "days": [
+      {
+        "date": "10/13",
+        "day_topic": "Midterm Review & Wrap-up Discussion (no new material)",
+        "readings": [],
+        "assignments_due": []
+      },
+      {
+        "date": "10/15",
+        "day_topic": "Midterm Exam (in class; no new material)",
+        "readings": [],
+        "assignments_due": [
+          { "title": "Midterm Exam" }
+        ]
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "topic": "Foundational Reading: DARPA Design Philosophy",
+    "days": [
+      {
+        "date": "10/20",
+        "day_topic": "Discussion: Clark, \"The Design Philosophy of the DARPA Internet Protocols\"",
+        "readings": [
+          { "title": "Clark (1988), \"The Design Philosophy of the DARPA Internet Protocols\"" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "10/22",
+        "day_topic": "Ch. 4/5: Routing Algorithms, SDN Intro",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 4-5" }
+        ],
+        "assignments_due": [
+          { "title": "Programming Assignment 2 due" }
+        ]
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "topic": "Foundational Reading: Tussle in Cyberspace",
+    "days": [
+      {
+        "date": "10/27",
+        "day_topic": "Discussion: Clark, Wroclawski, Sollins & Braden, \"Tussle in Cyberspace\"",
+        "readings": [
+          { "title": "Clark, Wroclawski, Sollins & Braden (2002), \"Tussle in Cyberspace: Defining Tomorrow's Internet\"" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "10/29",
+        "day_topic": "Ch. 5/6: Control Plane, Link Layer Intro",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 5-6" }
+        ],
+        "assignments_due": [
+          { "title": "Wireshark Lab (Programming Assignment 3) released" }
+        ]
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "topic": "Foundational Reading: Understanding Infrastructure",
+    "days": [
+      {
+        "date": "11/3",
+        "day_topic": "Discussion: Edwards, Jackson, Bowker & Knobel, \"Understanding Infrastructure\"",
+        "readings": [
+          { "title": "Edwards, Jackson, Bowker & Knobel (2007), \"Understanding Infrastructure: Dynamics, Tensions, and Design\"" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "11/5",
+        "day_topic": "Ch. 6: Link Layer, continued",
+        "readings": [
+          { "title": "Kurose & Ross, Ch. 6" }
+        ],
+        "assignments_due": []
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "topic": "New Mexico Module: Broadband Data & Repair",
+    "days": [
+      {
+        "date": "11/10",
+        "day_topic": "Discussion: Palacios Abad et al., \"Mending the Fabric\"",
+        "readings": [
+          { "title": "Palacios Abad et al. (2024), \"Mending the Fabric: The Contentious, Collaborative Work of Repairing Broadband Maps\"" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "11/12",
+        "day_topic": "New Mexico Module: Guest Speaker #1 (technical focus, TBD)",
+        "readings": [],
+        "assignments_due": [
+          { "title": "Wireshark Lab (Programming Assignment 3) due" }
+        ]
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "topic": "New Mexico Module: Community & Policy",
+    "days": [
+      {
+        "date": "11/17",
+        "day_topic": "Discussion: Johnson et al., \"Network Capacity as Common Pool Resource\" (optional further reading: Duarte, Network Sovereignty)",
+        "readings": [
+          { "title": "Johnson, Jang, O'Rourke, Ye & Heimerl (2021), \"Network Capacity as Common Pool Resource\"" },
+          { "title": "Optional: Duarte (2017), Network Sovereignty (chapter TBD)" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "11/19",
+        "day_topic": "New Mexico Module: Guest Speaker #2 (policy focus, TBD) / Site Visit (logistics TBD)",
+        "readings": [],
+        "assignments_due": []
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "topic": "Foundational Reading: Toward Indigenous Presence (Thanksgiving week)",
+    "days": [
+      {
+        "date": "11/24",
+        "day_topic": "HYBRID: Discussion: Dorr, Rock, Diaz & Keefe, \"Toward Indigenous Presence\" + Course Wrap-up",
+        "readings": [
+          { "title": "Dorr, Rock, Diaz & Keefe (2024), \"Toward Indigenous Presence\"" }
+        ],
+        "assignments_due": []
+      },
+      {
+        "date": "11/26",
+        "day_topic": "No class — Thanksgiving Break",
+        "readings": [],
+        "assignments_due": []
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "topic": "Final Presentations",
+    "days": [
+      {
+        "date": "12/1",
+        "day_topic": "Final Presentations (Part 1, graduate final projects)",
+        "readings": [],
+        "assignments_due": []
+      },
+      {
+        "date": "12/3",
+        "day_topic": "Final Presentations (Part 2) & Course Wrap-up",
+        "readings": [],
+        "assignments_due": [
+          { "title": "Final Project materials due (graduate students)" }
+        ]
+      }
+    ]
+  },
+  {
+    "week": "Finals",
+    "topic": "Finals Week",
+    "days": [
+      {
+        "date": "12/7+",
+        "day_topic": "Undergraduate Final Exam (date/time TBD, per University finals schedule)",
+        "readings": [],
+        "assignments_due": [
+          { "title": "Final Exam (undergraduate students)" }
+        ]
+      }
+    ]
+  }
+]

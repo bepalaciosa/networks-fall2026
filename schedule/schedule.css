@@ -1,0 +1,90 @@
+/* ===== Schedule Page Navigation ===== */
+.syllabus-back-link {
+  margin: 1.5rem 0 2rem 0;  /* top/bottom spacing only */
+  text-align: left;         /* left aligned */
+}
+.syllabus-back-link a {
+  color: #005f73;
+  text-decoration: none;
+  font-size: 0.95rem;       /* smaller text */
+  font-weight: 500;
+  padding: 0.3rem 0.6rem;
+  border: 1px solid #e0f4ff;
+  border-radius: 3px;
+  background: #fafafa;
+  transition: all 0.2s ease;
+  display: inline-block;    /* shrinks to content */
+}
+.syllabus-back-link a:hover {
+  background: #e0f4ff;
+  border-color: #005f73;
+}
+@media (max-width: 600px) {
+  .syllabus-back-link {
+    margin: 1rem 0 1.5rem 0;
+  }
+  .syllabus-back-link a {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+  }
+}
+/* ===== Course Schedule Table ===== */
+table.course-calendar {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  /* border: 1px solid #000; */
+}
+.course-calendar th,
+.course-calendar td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  vertical-align: top;
+  /* background: white; */
+}
+.course-calendar th {
+  background: #e0f4ff;
+  color: #005f73;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+/* .course-calendar tr:nth-child(even) {
+  background: #fafafa;
+} */
+.course-calendar tr:hover {
+  background: #f0f8ff;
+}
+.course-calendar strong {
+  color: #005f73;
+}
+.course-calendar .week-header td {
+  background: #fafafa !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.course-calendar .week-title {
+  font-weight: 600;
+  color: #005f73;
+}
+/* Compact lists for course calendar */
+.course-calendar ul {
+  margin: 0.25rem 0 0.5rem 1rem !important;
+  padding-left: 0 !important;
+}
+.course-calendar li {
+  margin-bottom: 0.1rem;
+}
+/* Responsive table on mobile */
+@media (max-width: 600px) {
+  .course-calendar {
+    font-size: .9rem;
+    /* font-size: 0.85rem; */
+    /* margin: 1rem 0; */
+  }
+  .course-calendar th,
+  .course-calendar td {
+    padding: 0.5rem 0.4rem;
+  }
+}
