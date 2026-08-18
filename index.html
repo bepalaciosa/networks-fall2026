@@ -11,13 +11,30 @@
     <h1>Intro to Computer Networks</h1>
     <p class="meta">CS 485/585 • Fall 2026 • University of New Mexico</p>
 
-    <div class="box-a">
-      <p><strong>This page is under active development until the first week of classes (August 17, 2026).</strong></p>
+    <div class="twocol">
+        <div>
+            <h3>Instructor</h3>
+            <p>
+            Beatriz E. Palacios A., PhD<br>
+            Email: bepa[at]unm[dot]edu<br>
+            Office: Farris Engineering Center 2380<br>
+            Office hours: Tuesdays after class or by appointment
+            </p>
+      </div>
+        <div>
+            <h3>Teaching Assistant</h3>
+            <p>
+            Akhil Reddy Alasandagutti<br>
+            Email: aalasand1[at]unm[dot]edu<br>
+            <!-- TODO: add office location -->
+            Office hours: TBD
+            </p>
+        </div>
     </div>
 
     <div class="twocol">
-      <div>
-        <h3>Logistics</h3>
+      <div class="box-a">
+        <h4>Logistics</h4>
         <p>
           Dates: 08/18/2026 - 12/03/2026<br>
           Finals week: 12/07/2026 - 12/11/2026<br>
@@ -26,24 +43,19 @@
           Class schedule: <a href="schedule/">Calendar</a>
         </p>
       </div>
-
-      <div>
-        <h3>Instructor</h3>
-        <p>
-          Beatriz E. Palacios A., PhD<br>
-          Email: bepa[at]unm[dot]edu<br>
-          Office: Farris Engineering Center 2380<br>
-          Office hours: TBD
-        </p>
-      </div>
-    </div>
-
-    <div class="box">
-      <strong>Resources:</strong>
-      <ul>
-        <li>Canvas link: TBD</li>
-        <li><a href="https://github.com/bepalaciosa/networks-fall2026">Syllabus source on GitHub</a></li>
-      </ul>
+      <div class="box-b">
+            <h4>Resources</h4>
+            <ul>
+                <li>Canvas (grades, announcements, discussions)
+                    <ul>
+                        <li><a href="https://canvas.unm.edu/courses/73304">Undergrad section (485)</a></li>
+                        <li><a href="https://canvas.unm.edu/courses/73305">Grad section (585)</a></li>
+                    </ul>
+                </li>
+                <li>Github repo for lab submissions TBD</li>
+                <li><a href="https://github.com/bepalaciosa/networks-fall2026">Syllabus source</a> (GitHub)</li>
+            </ul>
+        </div>
     </div>
 
     <h2>Course Overview</h2>
@@ -74,32 +86,34 @@
        <p><strong>Kurose &amp; Ross, <em>Computer Networking: A Top-Down Approach</em> (8th or 9th edition).</strong></p>
     </div>
 
-    <p>For your convenience, all readings are summarized below. Please check the <a href="schedule/">Calendar</a> for the most up-to-date information on required readings and due dates.</p>
+    <p><em>You are responsible for securing access to the primary textbook.</em> Please check the <a href="schedule/">Calendar</a> for the most up-to-date information on required chapters/sections and due dates.</p>
 
-    <p>Most readings will be available as PDFs or links to the original sources.<strong><em>You are responsible for securing access to the primary textbook.</em></strong></p>
+    <p>In addition to the textbook, we will be discussing relevant research papers throughout the semester. These will be provided to you as PDFs or links to the original sources. See a summary list of the papers below.</p>
    
     <h3>Foundational Readings</h3>
     <ul>
-        <li>Saltzer, Reed &amp; Clark, "End-to-End Arguments in System Design" (1984)</li>
-        <li>Clark, "The Design Philosophy of the DARPA Internet Protocols" (1988)</li>
-        <li>Clark, Wroclawski, Sollins &amp; Braden, "Tussle in Cyberspace: Defining Tomorrow's Internet" (2002)</li>
-        <li>Edwards, Jackson, Bowker &amp; Knobel, "Understanding Infrastructure: Dynamics, Tensions, and Design" (2007)</li>
+        <li>"End-to-End Arguments in System Design." Jerome H. Saltzer, David P. Reed &amp; David D. Clark. ACM Transactions on Computer Systems (TOCS), 1984.</li>
+        <li>"Tussle in Cyberspace: Defining Tomorrow's Internet." David D. Clark, John Wroclawski, Karen R. Sollins &amp; Robert Braden. ACM SIGCOMM, 2002.</li>
     </ul>
 
-    <h3>Applied Readings</h3>
+<h3>Applied Readings</h3>
     <ul>
-        <li>Palacios Abad et al., "Mending the Fabric: The Contentious, Collaborative Work of Repairing Broadband Maps" (CSCW 2024)</li>
-        <li>Johnson, Jang, O'Rourke, Ye &amp; Heimerl, "Network Capacity as Common Pool Resource" (2021)</li>
-        <li>Hardy, Wyche &amp; Veinot, "Rural HCI Research: Definitions, Distinctions, Methods, and Opportunities" (2019)</li>
-        <li>Woo, Fraire, Ratnasamy, Shenker &amp; Hasan, "Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide" (HotNets 2025)</li>
+        <li>"Mending the Fabric: The Contentious, Collaborative Work of Repairing Broadband Maps." Beatriz Palacios Abad, Elizabeth Belding, Morgan Vigil-Hayes &amp; Ellen Zegura. ACM CSCW, 2024.</li>
+        <li>"Network Capacity as Common Pool Resource: Community-Based Congestion Management in a Community Network." Matthew William Johnson, Esther Han Beol Jang, Frankie O'Rourke, Rachel Ye &amp; Kurtis Heimerl. ACM CSCW, 2021.</li>
+        <li>"Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide." Wesley Woo, Juan A. Fraire, Sylvia Ratnasamy, Scott Shenker &amp; Shaddi Hasan. ACM HotNets, 2025.</li>
     </ul>
+
     
+    <!--
     <h3>Optional Further Reading</h3>
     <p>Note: This list will be updated and categorized before the start of the semester. Optional readings will be shared to support graduate students as they explore topics for their final projects.</p>
     <ul>
-        <li>Duarte, <em>Network Sovereignty: Building the Internet across Indian Country</em> (2017)</li>
-        <li>Dorr, Rock, Diaz &amp; Keefe, "Toward Indigenous Presence" (2024)</li>
-    </ul>
+        <li>"The Design Philosophy of the DARPA Internet Protocols." David D. Clark. ACM SIGCOMM, 1988.</li>
+        <li>"Understanding Infrastructure: Dynamics, Tensions, and Design." Paul N. Edwards, Steven J. Jackson, Geoffrey C. Bowker &amp; Cory P. Knobel. NSF Workshop Report, 2007.</li>
+        <li><em>Network Sovereignty: Building the Internet across Indian Country.</em> Marisa Elena Duarte. University of Washington Press, 2017.</li>
+        <li>"Toward Indigenous Presence: A Radical Relationality Approach for Designing Mixed-Reality Indigenous Data Experiences." Sean J. Dorr, James W. Rock, Vicente M. Diaz &amp; Daniel F. Keefe. IEEE Computer Graphics and Applications, 2024.</li>
+        <li>"Rural HCI Research: Definitions, Distinctions, Methods, and Opportunities." Jean Hardy, Susan Wyche &amp; Tiffany Veinot. ACM CSCW, 2019.</li>
+    </ul> -->
 
     <h2>Assignments Summary</h2>
 
@@ -245,6 +259,53 @@
     </tbody>
     </table>
 
+    <h2>Succeeding in This Class</h2>
+    <p>The points below describe, in general terms, what it takes to do well in this course.</p>
+    <ul>
+        <li><strong>Consistency:</strong> Students who keep up with weekly homework and readings will find the workload steady and manageable. The lowest two homework grades are dropped.</li>
+        <li><strong>Technical Competency:</strong> Students who write clear, well-tested code and can explain the design choices behind it will do well on labs.</li>
+        <li><strong>In-Class Engagement:</strong> We will use an on-call system for discussion days. You will be assigned to Group 1 or Group 2 during Week 2, and each group is responsible for actively contributing on its assigned discussion days. Everyone is expected to come prepared regardless of group, but on-call students are specifically expected to speak up.</li>
+        <li><strong>Independent Inquiry &amp; Collaboration (graduate students):</strong> Graduate students who start scoping project ideas early, draw on the optional readings list for inspiration, and treat discussion days as a chance to workshop ideas and get feedback will be in the strongest position going into the proposal.</li>
+    </ul>
+
+    <h2 id="late-work">Late Work Policy</h2>
+    <ul>
+        <li><strong>Technical Issues:</strong> Problems with GitHub, Canvas, or similar tools are not penalized, but you need to report them as soon as they happen, not after the deadline has passed.</li>
+        <li><strong>Extenuating Circumstances:</strong> Life happens. If something comes up during the semester, reach out as early as you can so we can work out a reasonable path forward together.</li>
+        <li><strong>Homework:</strong> No late submissions accepted. Two lowest scores dropped.</li>
+        <li><strong>Labs:</strong> 10% per day penalty. Late submissions accepted up to a week late. Contact me before the deadline if you anticipate needing more time.</li>
+        <li><strong>Quizzes &amp; Exams:</strong> Given in class, on paper. No makeups except for documented emergencies or university-approved absences, arranged in advance whenever possible.</li>
+        <li><strong>On-Call Discussion Days:</strong> If you must miss your group's on-call day, you may make it up on another discussion day, but you must notify me and your TA in advance.</li>
+        <li><strong>Project Proposal &amp; Milestones (grad students):</strong> 10% per day penalty. Late submissions accepted up to a week late. Contact me before the deadline if you anticipate needing more time. <em>Please note that a late Proposal submission may result in issues for subsequent Milestones, try to submit this on time.</em></li>
+        <li><strong>Group Presentation and Final Paper (grad students):</strong> Due dates are firm given end-of-semester scheduling. Extensions are rare and must be requested at least one week in advance.</li>
+    </ul>
+
+    <h2>Attendance Policy</h2>
+    <p>Attendance is mandatory on the days your group is on-call for discussion. Beyond that, I will not track attendance. However, this is a largely discussion-driven course. Showing up regularly is in your own interest.</p>
+
+    <p>My goal is to make this a class you find worthwhile to attend. If you are curious about a specific topic, bring it up on a discussion day, or sign up for a show-and-tell slot for extra credit.</p>
+
+    <h3>Devices in Class</h3>
+    <p>I recommend you take handwritten notes. Please do not use laptops or phones during class unless you are specifically told to. If a particular class session needs a device, you will be told in advance. Quizzes and exams will be given entirely on paper. If you have a specific need for an exception to this policy, please ask.</p>
+
+    <h2>Use of Generative AI</h2>
+    <div class="box">
+        <p>Use of generative AI is discouraged (except when an assignment explicitly asks for it), but it is not prohibited. You will be asked to disclose your use (or non-use) of AI in every assignment.</p>
+    </div>
+    <p>All work you submit must be your own. You should never include in your assignment anything that was not written directly by you without proper citation (including quotation marks and in-line citation for direct quotes). If you entire assignment is attributed to a source other than yourself, you will not get a good grade.</p>
+
+    <p>Including anything you did not write in your assignment without proper citation or including fake citations will be treated as an academic misconduct case and may result in a zero on the assignment or a failing grade in the course.</p>
+
+    <h2>Accommodations</h2>
+    <p>UNM is committed to providing equitable access to learning opportunities for students with documented disabilities. As your instructor, it is my objective to facilitate an inclusive classroom setting, in which students have full access and opportunity to participate. To engage in a confidential conversation about the process for requesting reasonable accommodations for this class and/or program, please contact <a href="http://arc.unm.edu">Accessibility Resource Center </a> at arcsrvs@unm.edu or 505-277-3506.</p>
+
+    <h2>Credit-hour Statement</h2>
+    <p>This is a three-credit-hour course. Class meets for two 75-minute sessions of direct instruction for sixteen weeks during the Spring 2026 semester. Please plan for a minimum of six hours of out-of-class work (or homework, study, assignment completion, and class preparation) each week. </p>
+
+    <hr class="hr-blue">
+
+    <p><em>This syllabus borrows from those by: Eric Greenlee, Amy Bruckman, and Annie Ant&oacute;n and Peter Swire at Georgia Tech; Afsah Anwar at UNM.</em></p>
+
   </body>
 
   <footer class="course-footer">
@@ -259,6 +320,6 @@
 
     <p>Linked readings and media may have their own copyright or license restrictions; please verify before reuse.</p>
 
-    <p><em>Last updated:</em> July 2026</p>
+    <p><em>Last updated:</em> August 2026</p>
   </footer>
 </html>
