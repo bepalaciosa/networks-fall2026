@@ -75,7 +75,7 @@
     "days": [
       {
         "date": "9/8",
-        "day_topic": "Discussion: Email &amp; DNS + In-Class Activity: \"Packet Post\" (paper-based transport simulation) [Group 2 on-call]",
+        "day_topic": "Discussion: Email &amp; DNS + In-Class Activity [Group 2 on-call]",
         "readings": [
           { "title": "K&amp;R 2.3, 2.4" }
         ],
@@ -178,7 +178,7 @@
     "days": [
       {
         "date": "10/6",
-        "day_topic": "Ch. 4: Network Layer Overview, Router Internals (Full Lecture, Fall Break Week, No On-Call)",
+        "day_topic": "Ch. 4: Network Layer Overview, Router Internals (Full Lecture, No On-Call)",
         "readings": [
           { "title": "K&amp;R 4.1, 4.2" }
         ],
