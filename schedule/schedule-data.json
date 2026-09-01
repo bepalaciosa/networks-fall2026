@@ -63,9 +63,7 @@
         "readings": [
           { "title": "K&amp;R 2.2" }
         ],
-        "assignments_due": [
-          { "title": "Lab 1 released" }
-        ]
+        "assignments_due": []
       }
     ]
   },
@@ -77,7 +75,7 @@
         "date": "9/8",
         "day_topic": "Discussion: Email &amp; DNS + In-Class Activity [Group 2 on-call]",
         "readings": [
-          { "title": "K&amp;R 2.3, 2.4" }
+          { "title": "K&amp;R 2.3, 2.4, 2.5" }
         ],
         "assignments_due": [
           { "title": "HW3 due" }
@@ -90,7 +88,8 @@
           { "title": "K&amp;R 2.6 (9th)/2.7 (8th), 3.1" }
         ],
         "assignments_due": [
-          { "title": "Project Proposal due (graduate students)" }
+          { "title": "Project Proposal due (graduate students)" },
+          { "title": "Lab 1 released" }
         ]
       }
     ]
@@ -142,9 +141,7 @@
         "readings": [
           { "title": "K&amp;R 3.5" }
         ],
-        "assignments_due": [
-          { "title": "Lab 1 due" }
-        ]
+        "assignments_due": []
       }
     ]
   },
@@ -168,7 +165,9 @@
         "readings": [
           { "title": "K&amp;R 3.6, 3.7" }
         ],
-        "assignments_due": []
+        "assignments_due": [
+            { "title": "Lab 1 due" }
+        ]
       }
     ]
   },
