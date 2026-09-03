@@ -115,9 +115,7 @@
         "readings": [
           { "title": "K&amp;R 3.2" }
         ],
-        "assignments_due": [
-          { "title": "Quiz 1 in-class" }
-        ]
+        "assignments_due": []
       }
     ]
   },
@@ -141,7 +139,9 @@
         "readings": [
           { "title": "K&amp;R 3.5" }
         ],
-        "assignments_due": []
+        "assignments_due": [
+          { "title": "Quiz 1 in-class" }
+        ]
       }
     ]
   },
