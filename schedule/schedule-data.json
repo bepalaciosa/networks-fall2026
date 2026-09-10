@@ -182,7 +182,8 @@
           { "title": "K&amp;R 4.1, 4.2" }
         ],
         "assignments_due": [
-          { "title": "HW7 due" }
+          { "title": "HW7 due" },
+          { "title": "Lab 1 Quiz in-class" }
         ]
       },
       {
@@ -217,13 +218,13 @@
   },
   {
     "week": 10,
-    "topic": "Network Layer: IP Addressing &amp; SDN",
+    "topic": "Foundational Reading: Tussle in Cyberspace",
     "days": [
       {
         "date": "10/20",
-        "day_topic": "Discussion: IP Addressing, NAT, IPv6 [Group 2 on-call]",
+        "day_topic": "Discussion: \"Tussle in Cyberspace\" [Group 2 on-call]",
         "readings": [
-          { "title": "K&amp;R 4.3" }
+          { "title": "Clark, Wroclawski, Sollins &amp; Braden (2002), \"Tussle in Cyberspace: Defining Tomorrow's Internet\"" }
         ],
         "assignments_due": [
           { "title": "HW9 due" }
@@ -231,9 +232,9 @@
       },
       {
         "date": "10/22",
-        "day_topic": "Ch. 4/5: SDN (Data Plane &amp; Control Plane)",
+        "day_topic": "Ch. 4/5: IP Addressing, SDN (Data Plane &amp; Control Plane)",
         "readings": [
-          { "title": "K&amp;R 4.4, 5.5" }
+          { "title": "K&amp;R 4.3, 4.4, 5.5" }
         ],
         "assignments_due": [
           { "title": "Project Milestone 2 due (graduate students)" },
@@ -244,13 +245,13 @@
   },
   {
     "week": 11,
-    "topic": "Foundational Reading: Tussle in Cyberspace",
+    "topic": "Routing Algorithms &amp; BGP / Guest Lecture: Wesley Woo",
     "days": [
       {
         "date": "10/27",
-        "day_topic": "Discussion: \"Tussle in Cyberspace\" [Group 1 on-call]",
+        "day_topic": "Discussion: Routing Algorithms (Distance Vector) &amp; BGP [Group 1 on-call]",
         "readings": [
-          { "title": "Clark, Wroclawski, Sollins &amp; Braden (2002), \"Tussle in Cyberspace: Defining Tomorrow's Internet\"" }
+          { "title": "K&amp;R 5.2, 5.4" }
         ],
         "assignments_due": [
           { "title": "HW10 due" }
@@ -258,9 +259,9 @@
       },
       {
         "date": "10/29",
-        "day_topic": "Ch. 5: Routing Algorithms, BGP",
+        "day_topic": "Guest Speaker: Wesley Woo (Virginia Tech)",
         "readings": [
-          { "title": "K&amp;R 5.2, 5.4" }
+          { "title": "Woo, Fraire, Ratnasamy, Shenker &amp; Hasan (2025), \"Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide\" (optional)" }
         ],
         "assignments_due": []
       }
@@ -268,13 +269,13 @@
   },
   {
     "week": 12,
-    "topic": "Applied Reading: Starlink &amp; the Digital Divide",
+    "topic": "Applied Reading: Network Capacity as Common Pool Resource",
     "days": [
       {
         "date": "11/3",
-        "day_topic": "Discussion: \"Starlink Doesn't End the Digital Divide\" [Group 2 on-call]",
+        "day_topic": "Discussion: \"Network Capacity as Common Pool Resource\" [Group 2 on-call, final on-call day]",
         "readings": [
-          { "title": "Woo, Fraire, Ratnasamy, Shenker &amp; Hasan (2025), \"Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide\"" }
+          { "title": "Johnson, Jang, O'Rourke, Ye &amp; Heimerl (2021), \"Network Capacity as Common Pool Resource\"" }
         ],
         "assignments_due": [
           { "title": "HW11 due" }
@@ -294,11 +295,11 @@
   },
   {
     "week": 13,
-    "topic": "New Mexico Module: Broadband Data &amp; Repair",
+    "topic": "New Mexico Module: Local Infrastructure",
     "days": [
       {
         "date": "11/10",
-        "day_topic": "Discussion: \"Repairing Broadband Maps\" [Group 1 on-call]",
+        "day_topic": "Guest Speaker: John Osmon (ABQIX and OBAE)",
         "readings": [
           { "title": "Palacios Abad, Belding, Vigil-Hayes &amp; Zegura (2024), \"Mending the Fabric: The Contentious, Collaborative Work of Repairing Broadband Maps\"" }
         ],
@@ -308,7 +309,7 @@
       },
       {
         "date": "11/12",
-        "day_topic": "New Mexico Module: Guest Speaker #1 (technical focus, TBD)",
+        "day_topic": "Guest Speaker: Jeff Lopez (OBAE)",
         "readings": [],
         "assignments_due": [
           { "title": "Lab 2 due" }
@@ -318,13 +319,13 @@
   },
   {
     "week": 14,
-    "topic": "New Mexico Module: Community &amp; Policy",
+    "topic": "New Mexico Module: Network Security",
     "days": [
       {
         "date": "11/17",
-        "day_topic": "Discussion: \"Network Capacity as Common Pool Resource\" [Group 2 on-call]",
+        "day_topic": "Guest Speaker: TBD",
         "readings": [
-          { "title": "Johnson, Jang, O'Rourke, Ye &amp; Heimerl (2021), \"Network Capacity as Common Pool Resource\"" }
+            { "title": "TBD" }
         ],
         "assignments_due": [
           { "title": "HW13 due" }
@@ -332,8 +333,10 @@
       },
       {
         "date": "11/19",
-        "day_topic": "New Mexico Module: Guest Speaker #2 (policy focus, TBD)",
-        "readings": [],
+        "day_topic": "Ch. 6: Link Layer Continued: MAC Protocols, Switched LANs, ARP, Ethernet",
+        "readings": [
+          { "title": "K&amp;R 6.3, 6.4" }
+        ],
         "assignments_due": [
           { "title": "Project Milestone 3 due (graduate students)" }
         ]
@@ -346,10 +349,8 @@
     "days": [
       {
         "date": "11/24",
-        "day_topic": "Ch. 6: Link Layer Continued: MAC Protocols, Switched LANs, ARP, Ethernet (Full Lecture, No On-Call)",
-        "readings": [
-          { "title": "K&amp;R 6.3, 6.4" }
-        ],
+        "day_topic": "Review &amp; Buffer Day (Full Lecture, No On-Call)",
+        "readings": [],
         "assignments_due": []
       },
       {
