@@ -145,7 +145,7 @@
       }
     ]
   },
-  {
+ {
     "week": 7,
     "topic": "Foundational Reading: End-to-End Arguments",
     "days": [
@@ -153,7 +153,7 @@
         "date": "9/29",
         "day_topic": "Discussion: \"End-to-End Arguments in System Design\" [Group 1 on-call]",
         "readings": [
-          { "title": "Saltzer, Reed &amp; Clark (1984), \"End-to-End Arguments in System Design\"" }
+          { "title": "Saltzer, Reed & Clark (1984), \"End-to-End Arguments in System Design\"" }
         ],
         "assignments_due": [
           { "title": "HW6 due" }
@@ -161,29 +161,27 @@
       },
       {
         "date": "10/1",
-        "day_topic": "Ch. 3: Congestion Control Principles &amp; TCP Congestion Control",
+        "day_topic": "Ch. 3: Reliable Data Transfer Principles & TCP",
         "readings": [
-          { "title": "K&amp;R 3.6, 3.7" }
+          { "title": "K&R 3.4, 3.5" }
         ],
-        "assignments_due": [
-            { "title": "Lab 1 due" }
-        ]
+        "assignments_due": []
       }
     ]
   },
   {
     "week": 8,
-    "topic": "Network Layer: Data Plane (Fall Break Week)",
+    "topic": "Transport Layer: Flow & Congestion Control (Fall Break Week)",
     "days": [
       {
         "date": "10/6",
-        "day_topic": "Ch. 4: Network Layer Overview, Router Internals (Full Lecture, No On-Call)",
+        "day_topic": "Ch. 3: TCP Flow Control & Congestion Control",
         "readings": [
-          { "title": "K&amp;R 4.1, 4.2" }
+          { "title": "K&R 3.5, 3.6, 3.7" }
         ],
         "assignments_due": [
-          { "title": "HW7 due" },
-          { "title": "Lab 1 Quiz in-class" }
+          { "title": "Midterm practice problems released" },
+          { "title": "Lab 1 due Wed 10/7" }
         ]
       },
       {
@@ -196,48 +194,48 @@
   },
   {
     "week": 9,
-    "topic": "Midterm Week",
+    "topic": "Transport Layer Wrap-Up & Network Layer Intro",
     "days": [
       {
         "date": "10/13",
-        "day_topic": "Midterm Review",
-        "readings": [],
+        "day_topic": "Quiz 2 (Lab quiz) + Guided Activity: Pipelining & TCP Timers (led by TA)",
+        "readings": [
+          { "title": "K&R 3.4, 3.5" }
+        ],
         "assignments_due": [
-          { "title": "HW8 due" }
+          { "title": "Quiz 2 (Lab quiz) in-class" }
         ]
       },
       {
         "date": "10/15",
-        "day_topic": "Midterm Exam (covers Ch. 1-4.2)",
-        "readings": [],
-        "assignments_due": [
-          { "title": "Midterm Exam" }
-        ]
+        "day_topic": "Ch. 4: Network Layer Overview, Router Internals + Midterm Review",
+        "readings": [
+          { "title": "K&R 4.1, 4.2" }
+        ],
+        "assignments_due": []
       }
     ]
   },
   {
     "week": 10,
-    "topic": "Foundational Reading: Tussle in Cyberspace",
+    "topic": "Tussle in Cyberspace & Midterm",
     "days": [
       {
         "date": "10/20",
         "day_topic": "Discussion: \"Tussle in Cyberspace\" [Group 2 on-call]",
         "readings": [
-          { "title": "Clark, Wroclawski, Sollins &amp; Braden (2002), \"Tussle in Cyberspace: Defining Tomorrow's Internet\"" }
+          { "title": "Clark, Wroclawski, Sollins & Braden (2002), \"Tussle in Cyberspace: Defining Tomorrow's Internet\"" }
         ],
         "assignments_due": [
-          { "title": "HW9 due" }
+          { "title": "HW7 due" }
         ]
       },
       {
         "date": "10/22",
-        "day_topic": "Ch. 4/5: IP Addressing, SDN (Data Plane &amp; Control Plane)",
-        "readings": [
-          { "title": "K&amp;R 4.3, 4.4, 5.5" }
-        ],
+        "day_topic": "Midterm Exam (covers Ch. 1-3)",
+        "readings": [],
         "assignments_due": [
-          { "title": "Project Milestone 2 due (graduate students)" },
+          { "title": "Midterm Exam" },
           { "title": "Lab 2 released" }
         ]
       }
@@ -245,50 +243,52 @@
   },
   {
     "week": 11,
-    "topic": "Routing Algorithms &amp; BGP / Guest Lecture: Wesley Woo",
+    "topic": "IP Addressing / Guest Lecture: Wesley Woo",
     "days": [
       {
         "date": "10/27",
-        "day_topic": "Discussion: Routing Algorithms (Distance Vector) &amp; BGP [Group 1 on-call]",
+        "day_topic": "Discussion: IP Addressing (IPv4, Subnetting, DHCP, NAT, IPv6) [Group 1 on-call]",
         "readings": [
-          { "title": "K&amp;R 5.2, 5.4" }
+          { "title": "K&R 4.3" }
         ],
         "assignments_due": [
-          { "title": "HW10 due" }
+          { "title": "HW8 due" }
         ]
       },
       {
         "date": "10/29",
         "day_topic": "Guest Speaker: Wesley Woo (Virginia Tech)",
         "readings": [
-          { "title": "Woo, Fraire, Ratnasamy, Shenker &amp; Hasan (2025), \"Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide\" (optional)" }
+          { "title": "Woo, Fraire, Ratnasamy, Shenker & Hasan (2025), \"Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide\" (optional)" }
         ],
-        "assignments_due": []
+        "assignments_due": [
+          { "title": "Project Milestone 2 due (graduate students)" }
+        ]
       }
     ]
   },
   {
     "week": 12,
-    "topic": "Applied Reading: Network Capacity as Common Pool Resource",
+    "topic": "Network Layer: Routing Algorithms & BGP",
     "days": [
       {
         "date": "11/3",
-        "day_topic": "Discussion: \"Network Capacity as Common Pool Resource\" [Group 2 on-call, final on-call day]",
+        "day_topic": "Discussion: Routing Algorithms (Link State & Distance Vector) [Group 2 on-call, final on-call day]",
         "readings": [
-          { "title": "Johnson, Jang, O'Rourke, Ye &amp; Heimerl (2021), \"Network Capacity as Common Pool Resource\"" }
+          { "title": "K&R 5.1, 5.2" }
         ],
         "assignments_due": [
-          { "title": "HW11 due" }
+          { "title": "HW9 due" }
         ]
       },
       {
         "date": "11/5",
-        "day_topic": "Ch. 6: Introduction to the Link Layer",
+        "day_topic": "Ch. 5: Routing Among ISPs: BGP",
         "readings": [
-          { "title": "K&amp;R 6.1" }
+          { "title": "K&R 5.4" }
         ],
         "assignments_due": [
-          { "title": "Quiz 2 in-class" }
+          { "title": "Quiz 3 in-class" }
         ]
       }
     ]
@@ -301,16 +301,19 @@
         "date": "11/10",
         "day_topic": "Guest Speaker: John Osmon (ABQIX and OBAE)",
         "readings": [
-          { "title": "Palacios Abad, Belding, Vigil-Hayes &amp; Zegura (2024), \"Mending the Fabric: The Contentious, Collaborative Work of Repairing Broadband Maps\"" }
+          { "title": "Palacios Abad, Belding, Vigil-Hayes & Zegura (2024), \"Mending the Fabric: The Contentious, Collaborative Work of Repairing Broadband Maps\"" }
         ],
         "assignments_due": [
-          { "title": "HW12 due" }
+          { "title": "HW10 due" }
         ]
       },
       {
         "date": "11/12",
         "day_topic": "Guest Speaker: Jeff Lopez (OBAE)",
-        "readings": [],
+        "readings": [
+          { "title": "K&R 4.4, 5.5 (optional)" },
+          { "title": "Johnson, Jang, O'Rourke, Ye & Heimerl (2021), \"Network Capacity as Common Pool Resource\" (optional)" }
+        ],
         "assignments_due": [
           { "title": "Lab 2 due" }
         ]
@@ -323,19 +326,15 @@
     "days": [
       {
         "date": "11/17",
-        "day_topic": "Guest Speaker: TBD",
-        "readings": [
-            { "title": "TBD" }
-        ],
-        "assignments_due": [
-          { "title": "HW13 due" }
-        ]
+        "day_topic": "Guest Speaker: Yash Bhardwaj (NM MSP)",
+        "readings": [],
+        "assignments_due": []
       },
       {
         "date": "11/19",
-        "day_topic": "Ch. 6: Link Layer Continued: MAC Protocols, Switched LANs, ARP, Ethernet",
+        "day_topic": "Ch. 6: Introduction to the Link Layer, Multiple Access Protocols",
         "readings": [
-          { "title": "K&amp;R 6.3, 6.4" }
+          { "title": "K&R 6.1, 6.3" }
         ],
         "assignments_due": [
           { "title": "Project Milestone 3 due (graduate students)" }
@@ -345,12 +344,14 @@
   },
   {
     "week": 15,
-    "topic": "Link Layer: MAC, Switching &amp; LANs (Thanksgiving Week)",
+    "topic": "Link Layer: Switched LANs & Ethernet (Thanksgiving Week)",
     "days": [
       {
         "date": "11/24",
-        "day_topic": "Review &amp; Buffer Day (Full Lecture, No On-Call)",
-        "readings": [],
+        "day_topic": "Ch. 6: Switched LANs, ARP, Ethernet",
+        "readings": [
+          { "title": "K&R 6.4" }
+        ],
         "assignments_due": []
       },
       {
