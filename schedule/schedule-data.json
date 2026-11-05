@@ -261,9 +261,7 @@
         "readings": [
           { "title": "Woo, Fraire, Ratnasamy, Shenker & Hasan (2025), \"Anyone, Anywhere, not Everyone, Everywhere: Starlink Doesn't End the Digital Divide\" (optional)" }
         ],
-        "assignments_due": [
-          { "title": "Project Milestone 2 due (graduate students)" }
-        ]
+        "assignments_due": []
       }
     ]
   },
@@ -287,9 +285,7 @@
         "readings": [
           { "title": "K&R 5.4" }
         ],
-        "assignments_due": [
-          { "title": "Quiz 3 in-class" }
-        ]
+        "assignments_due": []
       }
     ]
   },
@@ -315,7 +311,7 @@
           { "title": "Johnson, Jang, O'Rourke, Ye & Heimerl (2021), \"Network Capacity as Common Pool Resource\" (optional)" }
         ],
         "assignments_due": [
-          { "title": "Lab 2 due" }
+          { "title": "Project Milestone 2 due (graduate students)" }
         ]
       }
     ]
@@ -337,7 +333,7 @@
           { "title": "K&R 6.1, 6.3" }
         ],
         "assignments_due": [
-          { "title": "Project Milestone 3 due (graduate students)" }
+          { "title": "Quiz 3 in-class" }
         ]
       }
     ]
@@ -352,7 +348,9 @@
         "readings": [
           { "title": "K&R 6.4" }
         ],
-        "assignments_due": []
+        "assignments_due": [
+          { "title": "Lab 2 due" }
+        ]
       },
       {
         "date": "11/26",
@@ -385,8 +383,8 @@
     "topic": "Finals Week",
     "days": [
       {
-        "date": "12/7+",
-        "day_topic": "Undergraduate Final Exam (date/time TBD, per University finals schedule) · Graduate Final Paper due (date TBD)",
+        "date": "12/8",
+        "day_topic": "Undergraduate Final Exam, 12:30-2:30pm · Graduate Final Paper due (by 11:59pm)",
         "readings": [],
         "assignments_due": [
           { "title": "Final Exam (undergraduate students)" },
